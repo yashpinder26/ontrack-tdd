@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1778831547462" clover="3.2.0">
+  <project timestamp="1778831547462" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="51" coveredconditionals="51" methods="12" coveredmethods="12" elements="103" coveredelements="103" complexity="0" loc="40" ncloc="40" packages="1" files="1" classes="1"/>
+    <file name="taskInbox.js" path="C:\Users\yashp\Desktop\ontrack-tdd\src\taskInbox.js">
+      <metrics statements="40" coveredstatements="40" conditionals="51" coveredconditionals="51" methods="12" coveredmethods="12"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="15" type="cond" truecount="4" falsecount="0"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="26" type="cond" truecount="4" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="24" count="25" type="cond" truecount="6" falsecount="0"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="27" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="31" count="22" type="stmt"/>
+      <line num="38" count="22" type="stmt"/>
+      <line num="39" count="22" type="stmt"/>
+      <line num="43" count="8" type="stmt"/>
+      <line num="44" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="47" count="7" type="stmt"/>
+      <line num="48" count="21" type="stmt"/>
+      <line num="52" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="55" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="62" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="65" count="10" type="cond" truecount="5" falsecount="0"/>
+      <line num="66" count="2" type="stmt"/>
+      <line num="68" count="8" type="stmt"/>
+      <line num="75" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="76" count="8" type="stmt"/>
+      <line num="80" count="33" type="stmt"/>
+      <line num="81" count="33" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

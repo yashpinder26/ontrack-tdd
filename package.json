@@ -1,0 +1,15 @@
+{
+  "name": "ontrack-task-inbox",
+  "version": "1.0.0",
+  "description": "OnTrack Task Inbox - TDD Assignment",
+  "main": "src/taskInbox.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
