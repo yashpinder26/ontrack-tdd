@@ -1,26 +1,19 @@
 name: CI – OnTrack Task Inbox
 
-on:
-  push:
-    branches: [ "**" ]
-  pull_request:
-    branches: [ main ]
+on: [push, pull_request]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js ${{ matrix.node-version }}
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20.x
           cache: 'npm'
 
       - name: Install dependencies
@@ -28,10 +21,3 @@ jobs:
 
       - name: Run unit tests with coverage
         run: npm test -- --ci --forceExit
-
-      - name: Upload coverage report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: coverage-node-${{ matrix.node-version }}
-          path: coverage/
